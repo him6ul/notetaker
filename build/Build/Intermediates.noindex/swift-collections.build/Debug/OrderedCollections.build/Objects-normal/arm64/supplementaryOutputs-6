@@ -1,0 +1,44 @@
+{
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Initializers.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Initializers.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Initializers.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Initializers.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Initializers.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Initializers.swiftdeps"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Insertions.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Insertions.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Insertions.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Insertions.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Insertions.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Insertions.swiftdeps"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Invariants.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Invariants.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Invariants.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Invariants.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Invariants.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Invariants.swiftdeps"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Move.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Move.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Move.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Move.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Move.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Move.swiftdeps"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial MutableCollection.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial MutableCollection.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial MutableCollection.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial MutableCollection.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial MutableCollection.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial MutableCollection.swiftdeps"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial RangeReplaceableCollection.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/swift-collections.build/Debug/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.swiftdeps"
+  }
+}

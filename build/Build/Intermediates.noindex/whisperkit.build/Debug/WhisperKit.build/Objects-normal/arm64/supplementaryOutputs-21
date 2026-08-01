@@ -1,0 +1,23 @@
+{
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/WhisperKit/Sources/WhisperKit/Core/Audio/AudioChunker.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioChunker.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioChunker.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioChunker.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioChunker.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioChunker.swiftdeps"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/WhisperKit/Sources/WhisperKit/Core/Audio/AudioProcessor.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioProcessor.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioProcessor.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioProcessor.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioProcessor.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioProcessor.swiftdeps"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/WhisperKit/Sources/WhisperKit/Core/Audio/AudioStreamTranscriber.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioStreamTranscriber.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioStreamTranscriber.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioStreamTranscriber.dia",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioStreamTranscriber.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/whisperkit.build/Debug/WhisperKit.build/Objects-normal/arm64/AudioStreamTranscriber.swiftdeps"
+  }
+}

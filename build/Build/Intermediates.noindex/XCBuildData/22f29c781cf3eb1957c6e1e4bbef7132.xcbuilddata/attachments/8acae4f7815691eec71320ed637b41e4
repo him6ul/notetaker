@@ -1,0 +1,12 @@
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/AppState.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Config/Keychain.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Delivery/Mailer.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Audio/MicCapture.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/NoteTakerApp.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Audio/Resampler.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Config/Settings.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/SettingsView.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Analysis/Summarizer.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Audio/SystemAudioCapture.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Transcription/Transcriber.swift
+/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Transcription/TranscriptStore.swift

@@ -1,0 +1,129 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTaker-primary.dia",
+    "emit-module-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTaker-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTaker-primary-emit-module.dia",
+    "pch" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTaker-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTaker-primary.swiftdeps"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Analysis/Summarizer.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Summarizer.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Summarizer.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Summarizer.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Summarizer.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Summarizer.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Summarizer.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Summarizer.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Summarizer~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/AppState.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/AppState.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/AppState.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/AppState.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/AppState.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/AppState.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/AppState.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/AppState~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Audio/MicCapture.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/MicCapture.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/MicCapture.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/MicCapture.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/MicCapture.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/MicCapture.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/MicCapture.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/MicCapture.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/MicCapture~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Audio/Resampler.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Resampler.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Resampler.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Resampler.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Resampler.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Resampler.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Resampler.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Resampler.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Resampler~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Audio/SystemAudioCapture.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SystemAudioCapture.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SystemAudioCapture.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SystemAudioCapture.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SystemAudioCapture.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SystemAudioCapture.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SystemAudioCapture.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SystemAudioCapture.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SystemAudioCapture~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Config/Keychain.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Keychain.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Keychain.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Keychain.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Keychain.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Keychain.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Keychain.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Keychain.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Keychain~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Config/Settings.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Settings.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Settings.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Settings.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Settings.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Settings.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Settings.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Settings.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Settings~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Delivery/Mailer.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Mailer.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Mailer.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Mailer.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Mailer.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Mailer.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Mailer.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Mailer.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Mailer~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/NoteTakerApp.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTakerApp.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTakerApp.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTakerApp.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTakerApp.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTakerApp.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTakerApp.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTakerApp.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/NoteTakerApp~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/SettingsView.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Transcription/Transcriber.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Transcriber.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Transcriber.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Transcriber.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Transcriber.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Transcriber.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Transcriber.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Transcriber.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/Transcriber~partial.swiftmodule"
+  },
+  "/Users/hgupta/eGainSourceCode/him6ul/notes/NoteTaker/Transcription/TranscriptStore.swift" : {
+    "const-values" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/TranscriptStore.swiftconstvalues",
+    "dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/TranscriptStore.d",
+    "diagnostics" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/TranscriptStore.dia",
+    "index-unit-output-path" : "/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/TranscriptStore.o",
+    "llvm-bc" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/TranscriptStore.bc",
+    "object" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/TranscriptStore.o",
+    "swift-dependencies" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/TranscriptStore.swiftdeps",
+    "swiftmodule" : "/Users/hgupta/eGainSourceCode/him6ul/notes/build/Build/Intermediates.noindex/NoteTaker.build/Debug/NoteTaker.build/Objects-normal/arm64/TranscriptStore~partial.swiftmodule"
+  }
+}

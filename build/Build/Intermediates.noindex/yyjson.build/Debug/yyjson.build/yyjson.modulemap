@@ -1,0 +1,4 @@
+module yyjson {
+umbrella header "/Users/hgupta/eGainSourceCode/him6ul/notes/build/SourcePackages/checkouts/yyjson/src/yyjson.h"
+export *
+}

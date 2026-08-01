@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20935C8FB857466488FD0EC0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9EFBD6DEBD4DE34A20536 /* SettingsView.swift */; };
+		44744EB817E679455FB736CD /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35CBE2EE5341C2D3E79D0E /* ReviewView.swift */; };
+		6C444B57B75CB2D0D8EAFE6B /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F676047B6072BB672CEE7 /* Keychain.swift */; };
+		84061BFA135BBEAA0481C5EB /* Resampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934BE63D7CC4A8FF22EC577D /* Resampler.swift */; };
+		8954D694F77424EC637294F6 /* Mailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35CE3F7BF331DA65775E11B /* Mailer.swift */; };
+		B39D3F425748E2CF9A7A1EA5 /* MicCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089062EAD250E351A7D2F25 /* MicCapture.swift */; };
+		BE7FEE16CF63DC480241C2E3 /* NoteTakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F064A7F6E2F9A5F28583EEA /* NoteTakerApp.swift */; };
+		C7AF0F2B10C414ED6E21ACE3 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B45C62989818C033DE705 /* ReviewModel.swift */; };
+		D4772AC5619C5D8A0E77C553 /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8117636365A8ADD043430276 /* WhisperKit */; };
+		D54BD33F5F7B8E98E6E7C992 /* Summarizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D1DA9D4B53175827DA27A /* Summarizer.swift */; };
+		D6F7C039A598ACD413B78F0E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBDD6B455882A97164ACD9C /* Settings.swift */; };
+		E6460F7B4D891A3A73D05CEE /* Transcriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C488C9EE5F4DA1754F6212A /* Transcriber.swift */; };
+		E6E514B58191690F65BAE058 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0E23237EB9A9AF3E8525C /* AppState.swift */; };
+		F1ECEB3575F14E12424DFD17 /* TranscriptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303908EDDC412B39E19186B /* TranscriptStore.swift */; };
+		F6F01C93F29716FC28BA58AE /* SystemAudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6065422F8BC37C01C33D71F0 /* SystemAudioCapture.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B35CBE2EE5341C2D3E79D0E /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		1BA5A7EDAC6E3C5670232781 /* NoteTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C488C9EE5F4DA1754F6212A /* Transcriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transcriber.swift; sourceTree = "<group>"; };
+		3089062EAD250E351A7D2F25 /* MicCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicCapture.swift; sourceTree = "<group>"; };
+		3F064A7F6E2F9A5F28583EEA /* NoteTakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTakerApp.swift; sourceTree = "<group>"; };
+		484D1DA9D4B53175827DA27A /* Summarizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summarizer.swift; sourceTree = "<group>"; };
+		52F9EFBD6DEBD4DE34A20536 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6065422F8BC37C01C33D71F0 /* SystemAudioCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAudioCapture.swift; sourceTree = "<group>"; };
+		6303908EDDC412B39E19186B /* TranscriptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptStore.swift; sourceTree = "<group>"; };
+		934BE63D7CC4A8FF22EC577D /* Resampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resampler.swift; sourceTree = "<group>"; };
+		9E6F676047B6072BB672CEE7 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		A9C059085348C2D0667964CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CBBDD6B455882A97164ACD9C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CDE0E23237EB9A9AF3E8525C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		D34B45C62989818C033DE705 /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		DFDE1982702194472EFF74C5 /* NoteTaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NoteTaker.entitlements; sourceTree = "<group>"; };
+		E35CE3F7BF331DA65775E11B /* Mailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mailer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9CDA2E6B603463B9D7EE0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4772AC5619C5D8A0E77C553 /* WhisperKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1879E889E661DAB5C790268D /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				D34B45C62989818C033DE705 /* ReviewModel.swift */,
+				0B35CBE2EE5341C2D3E79D0E /* ReviewView.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		19AD9F039E40F5DD2E73B966 /* NoteTaker */ = {
+			isa = PBXGroup;
+			children = (
+				CDE0E23237EB9A9AF3E8525C /* AppState.swift */,
+				3F064A7F6E2F9A5F28583EEA /* NoteTakerApp.swift */,
+				52F9EFBD6DEBD4DE34A20536 /* SettingsView.swift */,
+				C9D5584D0402F4DBE9B00830 /* Analysis */,
+				3C8CECA8210FE25BB3DB8AC7 /* Audio */,
+				73C10AB86FFEA436F1EFE1BC /* Config */,
+				38FECCE968523597FC09D36F /* Delivery */,
+				520A6119034BC4463A19B137 /* Resources */,
+				1879E889E661DAB5C790268D /* Review */,
+				54DE3BA1E46FC5B8FB3331DE /* Transcription */,
+			);
+			path = NoteTaker;
+			sourceTree = "<group>";
+		};
+		38FECCE968523597FC09D36F /* Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				E35CE3F7BF331DA65775E11B /* Mailer.swift */,
+			);
+			path = Delivery;
+			sourceTree = "<group>";
+		};
+		3C8CECA8210FE25BB3DB8AC7 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3089062EAD250E351A7D2F25 /* MicCapture.swift */,
+				934BE63D7CC4A8FF22EC577D /* Resampler.swift */,
+				6065422F8BC37C01C33D71F0 /* SystemAudioCapture.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		520A6119034BC4463A19B137 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9C059085348C2D0667964CE /* Info.plist */,
+				DFDE1982702194472EFF74C5 /* NoteTaker.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		54DE3BA1E46FC5B8FB3331DE /* Transcription */ = {
+			isa = PBXGroup;
+			children = (
+				2C488C9EE5F4DA1754F6212A /* Transcriber.swift */,
+				6303908EDDC412B39E19186B /* TranscriptStore.swift */,
+			);
+			path = Transcription;
+			sourceTree = "<group>";
+		};
+		73C10AB86FFEA436F1EFE1BC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9E6F676047B6072BB672CEE7 /* Keychain.swift */,
+				CBBDD6B455882A97164ACD9C /* Settings.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		7E127891D9219DD2D4E13F3B = {
+			isa = PBXGroup;
+			children = (
+				19AD9F039E40F5DD2E73B966 /* NoteTaker */,
+				86A9DC7E127A5961A48169A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86A9DC7E127A5961A48169A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BA5A7EDAC6E3C5670232781 /* NoteTaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D5584D0402F4DBE9B00830 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				484D1DA9D4B53175827DA27A /* Summarizer.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC25C3493C0FF8D9AE3A3B3B /* NoteTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F85084F391F63A3478755C /* Build configuration list for PBXNativeTarget "NoteTaker" */;
+			buildPhases = (
+				B6418D2F7464CA844784FCE0 /* Sources */,
+				E9CDA2E6B603463B9D7EE0B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteTaker;
+			packageProductDependencies = (
+				8117636365A8ADD043430276 /* WhisperKit */,
+			);
+			productName = NoteTaker;
+			productReference = 1BA5A7EDAC6E3C5670232781 /* NoteTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CC81B9D9D7A54FD1452E93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CC25C3493C0FF8D9AE3A3B3B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1D3B11AB3FECF64E0ED064EF /* Build configuration list for PBXProject "NoteTaker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7E127891D9219DD2D4E13F3B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FB938E11D3B76B42FC94E687 /* XCRemoteSwiftPackageReference "WhisperKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86A9DC7E127A5961A48169A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC25C3493C0FF8D9AE3A3B3B /* NoteTaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6418D2F7464CA844784FCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E514B58191690F65BAE058 /* AppState.swift in Sources */,
+				6C444B57B75CB2D0D8EAFE6B /* Keychain.swift in Sources */,
+				8954D694F77424EC637294F6 /* Mailer.swift in Sources */,
+				B39D3F425748E2CF9A7A1EA5 /* MicCapture.swift in Sources */,
+				BE7FEE16CF63DC480241C2E3 /* NoteTakerApp.swift in Sources */,
+				84061BFA135BBEAA0481C5EB /* Resampler.swift in Sources */,
+				C7AF0F2B10C414ED6E21ACE3 /* ReviewModel.swift in Sources */,
+				44744EB817E679455FB736CD /* ReviewView.swift in Sources */,
+				D6F7C039A598ACD413B78F0E /* Settings.swift in Sources */,
+				20935C8FB857466488FD0EC0 /* SettingsView.swift in Sources */,
+				D54BD33F5F7B8E98E6E7C992 /* Summarizer.swift in Sources */,
+				F6F01C93F29716FC28BA58AE /* SystemAudioCapture.swift in Sources */,
+				E6460F7B4D891A3A73D05CEE /* Transcriber.swift in Sources */,
+				F1ECEB3575F14E12424DFD17 /* TranscriptStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FCB88F1A754C316E77845B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NoteTaker/Resources/NoteTaker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = NoteTaker/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egain.notetaker.NoteTaker;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6CFB3BA3ED650C48EDA872D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F08C8B30AC7EB0A1B8C2EAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NoteTaker/Resources/NoteTaker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = NoteTaker/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egain.notetaker.NoteTaker;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F8619035DBD114C44EFB1BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D3B11AB3FECF64E0ED064EF /* Build configuration list for PBXProject "NoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFB3BA3ED650C48EDA872D2 /* Debug */,
+				F8619035DBD114C44EFB1BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		36F85084F391F63A3478755C /* Build configuration list for PBXNativeTarget "NoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCB88F1A754C316E77845B2 /* Debug */,
+				F08C8B30AC7EB0A1B8C2EAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB938E11D3B76B42FC94E687 /* XCRemoteSwiftPackageReference "WhisperKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argmaxinc/WhisperKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8117636365A8ADD043430276 /* WhisperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB938E11D3B76B42FC94E687 /* XCRemoteSwiftPackageReference "WhisperKit" */;
+			productName = WhisperKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 57CC81B9D9D7A54FD1452E93 /* Project object */;
+}

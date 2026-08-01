@@ -1,0 +1,46 @@
+name: NoteTaker
+options:
+  bundleIdPrefix: com.egain.notetaker
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+packages:
+  WhisperKit:
+    url: https://github.com/argmaxinc/WhisperKit
+    from: "0.9.0"
+
+targets:
+  NoteTaker:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: NoteTaker
+    dependencies:
+      - package: WhisperKit
+    info:
+      path: NoteTaker/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: NoteTaker
+        CFBundleName: NoteTaker
+        LSUIElement: true
+        NSMicrophoneUsageDescription: "NoteTaker listens to your microphone to transcribe what you say during meetings."
+        NSSpeechRecognitionUsageDescription: "NoteTaker transcribes speech locally to take meeting notes."
+        NSHumanReadableCopyright: ""
+    entitlements:
+      path: NoteTaker/Resources/NoteTaker.entitlements
+      properties:
+        com.apple.security.app-sandbox: false
+        com.apple.security.device.audio-input: true
+        com.apple.security.network.client: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.egain.notetaker.NoteTaker
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: true
+        DEAD_CODE_STRIPPING: true
