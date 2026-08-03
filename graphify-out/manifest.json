@@ -1,0 +1,92 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1785791205.9549887,
+    "ast_hash": "5e562f8739f33945e2bf7b129fceab69",
+    "semantic_hash": "5e562f8739f33945e2bf7b129fceab69"
+  },
+  "NoteTaker/Analysis/Summarizer.swift": {
+    "mtime": 1785548763.3937097,
+    "ast_hash": "5d8636f4f500f50766aa486495834f87",
+    "semantic_hash": "5d8636f4f500f50766aa486495834f87"
+  },
+  "NoteTaker/AppState.swift": {
+    "mtime": 1785548763.3938293,
+    "ast_hash": "da9d37f9246d8ce73041c507c861f78d",
+    "semantic_hash": "da9d37f9246d8ce73041c507c861f78d"
+  },
+  "NoteTaker/Audio/MicCapture.swift": {
+    "mtime": 1785548763.3939235,
+    "ast_hash": "dcd791cd939722c9adb621448f42028d",
+    "semantic_hash": "dcd791cd939722c9adb621448f42028d"
+  },
+  "NoteTaker/Audio/Resampler.swift": {
+    "mtime": 1785548763.3939857,
+    "ast_hash": "09f349f95de7e4bcdfb7f8a3c8b35815",
+    "semantic_hash": "09f349f95de7e4bcdfb7f8a3c8b35815"
+  },
+  "NoteTaker/Audio/SystemAudioCapture.swift": {
+    "mtime": 1785548763.3940425,
+    "ast_hash": "5a806d95fb3bf0830b9adffcf94e7c6b",
+    "semantic_hash": "5a806d95fb3bf0830b9adffcf94e7c6b"
+  },
+  "NoteTaker/Config/Keychain.swift": {
+    "mtime": 1785548763.394157,
+    "ast_hash": "a9cb1aaa7db0f195bfac3ae7206e3b1d",
+    "semantic_hash": "a9cb1aaa7db0f195bfac3ae7206e3b1d"
+  },
+  "NoteTaker/Config/Settings.swift": {
+    "mtime": 1785548763.3942125,
+    "ast_hash": "95bf3421bd592d56f9912d902fecc33a",
+    "semantic_hash": "95bf3421bd592d56f9912d902fecc33a"
+  },
+  "NoteTaker/Delivery/Mailer.swift": {
+    "mtime": 1785548763.3943188,
+    "ast_hash": "ab8513d50acceb191ffbabfb68977b0a",
+    "semantic_hash": "ab8513d50acceb191ffbabfb68977b0a"
+  },
+  "NoteTaker/NoteTakerApp.swift": {
+    "mtime": 1785548763.3943794,
+    "ast_hash": "270fea3eca2eca280321fdc5a3956fa0",
+    "semantic_hash": "270fea3eca2eca280321fdc5a3956fa0"
+  },
+  "NoteTaker/Review/ReviewModel.swift": {
+    "mtime": 1785548763.394639,
+    "ast_hash": "cfc5e4840203dcf8538716efaae921f5",
+    "semantic_hash": "cfc5e4840203dcf8538716efaae921f5"
+  },
+  "NoteTaker/Review/ReviewView.swift": {
+    "mtime": 1785548763.3946972,
+    "ast_hash": "6d7af7537136439db991cc555d278580",
+    "semantic_hash": "6d7af7537136439db991cc555d278580"
+  },
+  "NoteTaker/SettingsView.swift": {
+    "mtime": 1785548763.3947537,
+    "ast_hash": "c9d7b768d7a63611593e1921dec20384",
+    "semantic_hash": "c9d7b768d7a63611593e1921dec20384"
+  },
+  "NoteTaker/Transcription/Transcriber.swift": {
+    "mtime": 1785548763.3948376,
+    "ast_hash": "e6d8fe9ed58c93e50d27c3ce6eb76925",
+    "semantic_hash": "e6d8fe9ed58c93e50d27c3ce6eb76925"
+  },
+  "NoteTaker/Transcription/TranscriptStore.swift": {
+    "mtime": 1785548763.394891,
+    "ast_hash": "6065242528c78b987fa989cf37bbc858",
+    "semantic_hash": "6065242528c78b987fa989cf37bbc858"
+  },
+  "CLAUDE.md": {
+    "mtime": 1785791205.954717,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
+  },
+  "README.md": {
+    "mtime": 1785548763.3949492,
+    "ast_hash": "88eb4ec8c0e193cc99da982ccd062d28",
+    "semantic_hash": "88eb4ec8c0e193cc99da982ccd062d28"
+  },
+  "project.yml": {
+    "mtime": 1785548764.5629516,
+    "ast_hash": "d122c6baebd6c3d4856fe0ddf8f69340",
+    "semantic_hash": "d122c6baebd6c3d4856fe0ddf8f69340"
+  }
+}
