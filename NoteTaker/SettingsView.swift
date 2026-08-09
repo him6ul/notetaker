@@ -7,6 +7,12 @@ struct SettingsView: View {
 
     var body: some View {
         Form {
+            Section("General") {
+                Toggle("Open NoteTaker at login", isOn: $settings.launchAtLogin)
+                Text("NoteTaker lives in the menu bar. Enable this to have it ready every time you log in.")
+                    .font(.caption).foregroundStyle(.secondary)
+            }
+
             Section("Email") {
                 TextField("Send notes to", text: $settings.recipient)
                 TextField("From (Gmail account)", text: $settings.sender)
@@ -33,7 +39,7 @@ struct SettingsView: View {
             }
         }
         .formStyle(.grouped)
-        .frame(width: 460, height: 380)
+        .frame(width: 460, height: 460)
         .onAppear { appPassword = settings.appPassword }
     }
 }

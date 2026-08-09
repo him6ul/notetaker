@@ -31,23 +31,30 @@ struct Mailer {
         lines.append("SUMMARY")
         lines.append(notes.summary.isEmpty ? "(none)" : notes.summary)
         lines.append("")
-        lines.append("IDEAS")
-        if notes.ideas.isEmpty {
+        lines.append("OBSERVATIONS")
+        if notes.observations.isEmpty {
             lines.append("(none)")
         } else {
-            for idea in notes.ideas { lines.append("• \(idea)") }
+            for obs in notes.observations { lines.append("• \(obs)") }
         }
         lines.append("")
-        lines.append("ACTION ITEMS")
-        if notes.action_items.isEmpty {
+        lines.append("ACTIONS")
+        if notes.actions.isEmpty {
             lines.append("(none)")
         } else {
-            for item in notes.action_items {
+            for item in notes.actions {
                 var detail = "• \(item.task)"
                 if let owner = item.owner, !owner.isEmpty { detail += " — owner: \(owner)" }
                 if let due = item.due, !due.isEmpty { detail += " — due: \(due)" }
                 lines.append(detail)
             }
+        }
+        lines.append("")
+        lines.append("IDEAS")
+        if notes.ideas.isEmpty {
+            lines.append("(none)")
+        } else {
+            for idea in notes.ideas { lines.append("• \(idea)") }
         }
         lines.append("")
         lines.append(String(repeating: "-", count: 40))

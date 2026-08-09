@@ -26,10 +26,19 @@ struct ReviewView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
                     field("Summary", text: $model.summary, minHeight: 70)
+                    field("Observations (one per line)", text: $model.observations, minHeight: 90)
+                    field("Actions (one per line)", text: $model.actions, minHeight: 90)
                     field("Ideas (one per line)", text: $model.ideas, minHeight: 90)
-                    field("Action items (one per line)", text: $model.actionItems, minHeight: 90)
                     field("Transcript", text: $model.transcript, minHeight: 160)
                 }
+            }
+
+            if let url = model.savedURL {
+                Label("Saved to \(url.path(percentEncoded: false))", systemImage: "checkmark.circle")
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
+                    .truncationMode(.middle)
             }
 
             if !model.statusLine.isEmpty {

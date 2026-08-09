@@ -55,6 +55,14 @@ struct MenuContent: View {
                 .disabled(appState.isBusy)
             }
 
+            if appState.canRetrySummary {
+                Button {
+                    appState.retrySummary()
+                } label: {
+                    Label("Retry Summary", systemImage: "arrow.clockwise")
+                }
+            }
+
             Divider()
 
             Button("Settings…") { openSettings() }
