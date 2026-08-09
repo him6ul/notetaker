@@ -8,11 +8,12 @@ struct MeetingNotes: Codable {
         let due: String?
     }
     let summary: String
+    let observations: [String]
+    let actions: [ActionItem]
     let ideas: [String]
-    let action_items: [ActionItem]
 }
 
-/// Extracts summary, ideas, and action items from a transcript using a local Ollama model.
+/// Extracts a summary, observations, actions, and ideas from a transcript using a local Ollama model.
 /// Uses Ollama's structured-output (`format` = JSON schema) for reliable parsing.
 struct Summarizer {
     let model: String
@@ -37,8 +38,8 @@ struct Summarizer {
             "type": "object",
             "properties": [
                 "summary": ["type": "string"],
-                "ideas": ["type": "array", "items": ["type": "string"]],
-                "action_items": [
+                "observations": ["type": "array", "items": ["type": "string"]],
+                "actions": [
                     "type": "array",
                     "items": [
                         "type": "object",
@@ -49,17 +50,19 @@ struct Summarizer {
                         ],
                         "required": ["task"]
                     ]
-                ]
+                ],
+                "ideas": ["type": "array", "items": ["type": "string"]]
             ],
-            "required": ["summary", "ideas", "action_items"]
+            "required": ["summary", "observations", "actions", "ideas"]
         ]
 
         let system = """
         You are a meeting-notes assistant. From the transcript, produce:
         - summary: a concise paragraph capturing what was discussed.
-        - ideas: distinct ideas, suggestions, or proposals raised (empty array if none).
-        - action_items: concrete tasks or commitments. Include an owner and due date only \
+        - observations: distinct factual observations or key points about what was discussed (empty array if none).
+        - actions: concrete tasks or commitments. Include an owner and due date only \
         if the transcript states them; otherwise use null. Empty array if none.
+        - ideas: distinct ideas, suggestions, or proposals raised (empty array if none).
         Base everything strictly on the transcript. Do not invent details.
         """
 

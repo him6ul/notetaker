@@ -17,6 +17,13 @@ final class AppSettings: ObservableObject {
     @Published var ollamaModel: String {
         didSet { defaults.set(ollamaModel, forKey: "ollamaModel") }
     }
+    /// Whether NoteTaker launches automatically at login. Changes are applied to the OS immediately.
+    @Published var launchAtLogin: Bool {
+        didSet {
+            defaults.set(launchAtLogin, forKey: "launchAtLogin")
+            LoginItem.setEnabled(launchAtLogin)
+        }
+    }
 
     private let defaults = UserDefaults.standard
 
@@ -25,6 +32,9 @@ final class AppSettings: ObservableObject {
         sender = defaults.string(forKey: "sender") ?? "him6ul@gmail.com"
         whisperModel = defaults.string(forKey: "whisperModel") ?? "openai_whisper-base.en"
         ollamaModel = defaults.string(forKey: "ollamaModel") ?? "llama3.1:8b"
+        launchAtLogin = defaults.object(forKey: "launchAtLogin") as? Bool ?? true
+        // Reconcile the OS login-item registration with the stored preference on every launch.
+        LoginItem.setEnabled(launchAtLogin)
     }
 
     /// The Gmail App Password for the sender account (from Keychain).

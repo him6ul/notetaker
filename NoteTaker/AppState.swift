@@ -189,8 +189,28 @@ final class AppState: ObservableObject {
                                 notes: notes,
                                 transcript: transcript,
                                 date: date)
+        saveArchive(model)   // persist immediately, so notes survive even if the window is closed
         presentReview(model)
     }
+
+    /// Writes the session's notes to disk. Non-fatal on failure — the review window still shows them.
+    private func saveArchive(_ model: ReviewModel) {
+        do {
+            model.savedURL = try NotesArchive.save(model.markdown(), for: model.date)
+        } catch {
+            NSLog("NoteTaker: couldn't archive notes: \(error.localizedDescription)")
+        }
+    }
+
+    /// Re-runs summarization on the transcript kept in memory after an analysis failure,
+    /// so a transient backend problem (e.g. Ollama not running) doesn't lose the session.
+    func retrySummary() {
+        guard canRetrySummary else { return }
+        Task { await finishAndReview() }
+    }
+
+    /// True when analysis failed but the transcript is still available to retry.
+    var canRetrySummary: Bool { isError && segmentCount > 0 }
 
     // MARK: - Review window
 
@@ -236,6 +256,7 @@ final class AppState: ObservableObject {
                                     recipient: model.recipient,
                                     appPassword: settings.appPassword)
                 try mailer.send(subject: model.subject, body: body, date: model.date)
+                saveArchive(model)   // persist the final edited version
                 notify(title: "NoteTaker", body: "Notes emailed to \(model.recipient).")
                 closeReview()
                 reset()
@@ -249,19 +270,27 @@ final class AppState: ObservableObject {
     }
 
     private func discardReview() {
-        notify(title: "NoteTaker", body: "Notes discarded — nothing was sent.")
+        notify(title: "NoteTaker", body: savedNoticeBody(reviewModel))
         closeReview()
         reset()
     }
 
+    /// Notification body for a not-emailed close: reassure the user the notes are still on disk.
+    private func savedNoticeBody(_ model: ReviewModel?) -> String {
+        model?.savedURL != nil
+            ? "Not emailed — a copy was saved to Documents/NoteTaker."
+            : "Notes discarded — nothing was sent."
+    }
+
     /// The user clicked the window's red close button (not a Send/Discard button).
     private func userClosedReviewWindow() {
-        guard reviewModel != nil else { return }   // ignore programmatic closes
+        guard let model = reviewModel else { return }   // ignore programmatic closes
+        let body = savedNoticeBody(model)
         reviewModel = nil
         reviewWindow = nil
         reviewWindowDelegate = nil
         NSApp.setActivationPolicy(.accessory)
-        notify(title: "NoteTaker", body: "Notes discarded — nothing was sent.")
+        notify(title: "NoteTaker", body: body)
         reset()
     }
 
